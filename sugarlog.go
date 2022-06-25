@@ -117,7 +117,7 @@ func (l *ZapLoggerSugar) Emergencyf(format string, args ...interface{}) {
 
 // NewSugarLogger new logger
 //  @return ZapLogger
-func NewSugarLogger() (zapLogger *ZapLoggerSugar) {
+func NewSugarLogger(Logger *ZapLogger) (zapLogger *ZapLoggerSugar) {
 	return &ZapLoggerSugar{
 		logger: Logger.logger.Sugar(),
 		level:  Logger.level,

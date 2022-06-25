@@ -124,7 +124,7 @@ func NewSugarLogger() (zapLogger *ZapLoggerSugar) {
 	}
 }
 
-// Sync sync
+// Sync sync1
 //  @receiver l *ZapLoggerSugar
 func (l *ZapLoggerSugar) Sync() {
 	l.logger.Sync()

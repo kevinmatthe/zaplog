@@ -1,14 +1,13 @@
-module github.com/heyuhengmatt/zaplog
+module github.com/kevinmatthe/zaplog
 
-go 1.18
+go 1.20
 
 require (
-	go.uber.org/zap v1.21.0
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0
+	go.uber.org/zap v1.24.0
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
 
 require (
-	github.com/BurntSushi/toml v1.1.0 // indirect
-	go.uber.org/atomic v1.7.0 // indirect
-	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/atomic v1.10.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 )
